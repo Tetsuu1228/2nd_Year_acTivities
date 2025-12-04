@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+  background: #f7f9fa;
+}
+
+#myHeading {
+  color: teal;
+  font-size: 3rem;
+  margin-bottom: 30px;
+  transition: color 0.4s ease;
+}
+
+#myButton {
+  padding: 10px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  background: white;
+  border: 2px solid teal;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+#myButton:hover {
+  background: teal;
+  color: white;
+}
