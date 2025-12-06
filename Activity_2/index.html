@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+
+    <div class="background"></div>
+
+    <div class="container fade-in">
+        <h1>Email Validation</h1>
+        <p>Please enter your email to proceed</p>
+
+        <form onsubmit="validate(); return false;">
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
